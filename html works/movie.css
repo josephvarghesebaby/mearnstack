@@ -1,0 +1,34 @@
+h1{
+    background-color: blanchedalmond;
+}
+body{
+background-color:white;
+}
+parent{
+    height:200px;
+    width:10%;
+    background-color:burlywood;
+    border:solid cornsilk 3px;
+    float: left;
+    }
+img{
+    width:auto;
+    margin-top:auto;
+    display: flex;
+    }
+div img{
+    height: 300px;
+    width:20%;
+    margin-bottom:20px;
+    display: flex;
+}
+.a1{
+    margin-top: 30px;
+    margin-left: 200px;
+    position: absolute;
+    
+}
+#child{
+    border: black 3px solid;
+    padding-left: 10px;
+}

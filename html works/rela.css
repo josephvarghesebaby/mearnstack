@@ -1,0 +1,42 @@
+.row{
+    background-color: yellowgreen;
+    height:500px;
+    width:500px;
+    border:solid black 2px;
+    position:relative;
+}
+.col
+{
+    height:200px;
+    width:100px;
+    border: solid 2px black;
+}
+.col-1{
+    position: absolute;
+    top: 20px;
+    background-color: blueviolet;
+}
+.col-2{
+    background-color: crimson;
+    position: absolute;
+    top: 20px;
+    left:105px
+}
+.col-3{
+    background-color:darkblue;
+    position: absolute;
+    top: 20px;
+    left:210px
+}
+.col-4{
+    background-color:darkmagenta;
+    position: absolute;
+    top: 20px;
+    left:310px
+}
+body
+{
+    background-image: url(./images/side.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}

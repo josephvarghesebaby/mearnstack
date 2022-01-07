@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ceviche+One&display=swap');
+h3{
+    color: cyan;
+}
+header{
+    background-color: darkcyan;
+
+}
+main{
+    
+}
+body{
+    background-color: darkseagreen;
+}
+#p1{
+    font-family: 'Ceviche One', cursive;
+}
+#p2{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Ceviche One', cursive;  
+}

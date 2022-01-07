@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function add();{
+    var a,b,c;
+    a=number(document.getElementById("first").value);
+    b=number(document.getElementById("second").value);
+    c= a + b;
+    document.getElementById("answer").value=c;
+        }
+</script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+Enter the first number:  <input id="fnumber"></br>
+Enter the second number: <input id="snumber"></br>
+<button onclick="add()">Add</button>
+    <input id ="answer">
+</body>
+</html>
+

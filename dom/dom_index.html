@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id ="hone"> Document Object Model </h1>
+    <h2> Dom properties </h2>
+    <ul>
+        <li>document.getElementByTagName()</li>
+        </ul>
+<h2>Dom methods</h2>
+<ul> 
+    <li class="items">document.getElementById()</li>
+    <li id="item1">document.getElementsByClassName()</li>
+    <li>document.querySelector()</li>
+    <li>document.querySelectorAll()</li>
+</ul>
+<div>
+    data
+    </div>
+<input type="text" id="age">
+<button onClick="validateAge()">Validate</button>
+<div id="result"></div>
+</body>
+<script>
+    function validateAge(){
+        let ag=age.value;
+        let html_data="";
+        if(ag>=18)
+        {
+            html_data+=<p style="color:green">aceess granted </p>
+        }
+        else{
+            html_data+=<p style="color:red">aceess denied </p>
+        }
+        result.innerHTML=html_data
+        }
+    </script>
+</html>
